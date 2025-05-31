@@ -128,7 +128,8 @@ export default function AddUserPage() {
         description="Add a new user to the system"
         action={
           <Link href="/dashboard">
-            <Button variant="outline\" size="sm\" className="gap-2">
+<Button variant="outline" size="sm" className="gap-2">
+
               <ArrowLeft className="h-4 w-4" />
               <span>Back to Dashboard</span>
             </Button>

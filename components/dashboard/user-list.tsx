@@ -8,6 +8,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { Button } from '@/components/ui/button'; // adjust the path accordingly
 
 export function UserList() {
   const [users, setUsers] = useState<User[]>([]);
